@@ -90,7 +90,7 @@ type
     FHeredocChecksum: Word;
 {$ENDIF}
     FTokenID: TtkTokenKind;
-    FIdentFuncTable: array[0..255] of TIdentFuncTableFunc;
+    FIdentFuncTable: array[0..222] of TIdentFuncTableFunc;
     FCommentAttri: TSynHighlighterAttributes;
     FIdentifierAttri: TSynHighlighterAttributes;
     FKeyAttri: TSynHighlighterAttributes;
